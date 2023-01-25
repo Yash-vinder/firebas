@@ -1,9 +1,12 @@
 import React from 'react'
+import styles from './loginmodules.css'
 
 const Login = () => {
   return (
-    <div>
-      Login page
+    <div className={styles.container}>
+      <div className={styles.innerbox}>
+        <h1 className={styles.heading}Login></h1>
+      </div>
     </div>
   )
 }
